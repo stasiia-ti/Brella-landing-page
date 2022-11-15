@@ -25,7 +25,9 @@
 .pfoto {
   background-image: url("Rectangle.png");
   background-size: cover;
-  min-width: 100%;
+  width: 100vw;
+  background-repeat: no-repeat;
+  left: 0;
 }
 
 .conteiner-text {
@@ -309,7 +311,9 @@
   background-size: cover;
   padding: 120px;
   height: 100%;
-  width: 100%;
+  width: 100vw;
+  background-repeat: no-repeat;
+  left: 0;
 }
 
 .easy-text {
@@ -368,8 +372,6 @@
   position: relative;
 }
 .response-img {
-  /* overflow: hidden; */
-  /* flex-wrap: wrap; */
   display: inline;
   margin: 0;
 }
@@ -391,6 +393,7 @@
   background-size: cover;
   height: 100%;
   width: 100%;
+  background-color: #e3eeed;
 }
 
 .men-title {
